@@ -14,6 +14,7 @@ def part1():
             depth -= int(line[-1])
         else:
             depth += int(line[-1])
+    f.close()
     return horizontal_position * depth
 
 
@@ -32,7 +33,7 @@ def part2():
             aim -= int(line[-1])
         else:
             aim += int(line[-1])
-
+    f.close()
     return horizontal_position * depth
 
 
